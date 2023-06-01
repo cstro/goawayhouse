@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Go Away, House!",
+  "version": "1.0",
+  "description": "Ability to dislike a house so you remember you don't like it.",
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://www.zoopla.co.uk/*"
+      ]
+    }
+  ]
+}
